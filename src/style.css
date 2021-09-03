@@ -247,8 +247,7 @@ input {
   margin-left: 50%;
   transform: translateX(-50%);
 }
-.myButton2:hover {
-  padding: 20px;
+.myButton3:hover {
   background: rgba(155, 140, 221, 0.658);
   color: rgb(255, 255, 255);
 } 
