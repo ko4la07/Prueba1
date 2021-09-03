@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<title>Animes</title>
+</head>
+
+<body>
+	<div id="titulo">
+		<h2>ANIMES</h2>
+	</div>
+	<section id="win">
+		<div>
+			<h3>Pregunta 1</h3>
+			<div>Tienes <span id="countdown"></span> segundos</div>
+      <p class="preguntas">¿A qué anime corresponde la siguiente imagen?</p>
+      <div id="imag">
+        <img src="assets/anime_1.jpg" alt="anime 1" width="320" height="200" >
+      </div>
+    </div> 
+  </section>
+  <section>
+      <div class="grid-container">
+        <div class="grid-item">
+          <button class="answer" onclick="checkBtn('A')">DIGIMON</button>
+        </div>
+        <div class="grid-item">
+          <button class="answer" onclick="checkBtn('B')">INUYASHA</button>
+        </div>
+        <div class="grid-item">
+          <button class="answer" onclick="checkBtn('C')" onkeyup="Habilitar">NARUTO</button>
+        </div>
+        <div class="grid-item">
+          <button class="answer" onclick="checkBtn('D')">ONE PIECE</button>
+        </div>
+    </div>
+  </section>
+  <script src="js/anime.js"></script>
+
+</body>
+</html>

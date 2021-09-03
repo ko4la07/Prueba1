@@ -1,0 +1,24 @@
+{
+  "name": "trivia-lab",
+  "version": "1.0.0",
+  "description": "trivia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve src/",
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ko4la07/Trivia-Lab.git"
+  },
+  "keywords": [
+    "trivia"
+  ],
+  "author": "Dayana Huaytalla Tineo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ko4la07/Trivia-Lab/issues"
+  },
+  "homepage": "https://github.com/ko4la07/Trivia-Lab#readme"
+}

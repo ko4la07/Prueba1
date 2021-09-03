@@ -1,0 +1,281 @@
+
+html, body{
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 62.5%;
+  height:100%;
+  width:100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-color: #D800E0;
+  background-image: url('assets/fondoQuiz.png');
+  box-sizing: border-box;
+}
+/* titulo de bienvenida */
+#bvnds {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  -webkit-text-stroke: 2px black;
+  text-shadow: 4px 4px 4px black;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding:20px;
+}
+/* imagen del quiz */
+#quizi {
+  background-clip: padding-box;
+  text-align: center;
+  margin:auto;
+}
+/* texto del inicio "ingresa tu nombre" */
+#ingre{
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  text-align: center;
+  font-size: 2.5rem;
+  color: white; 
+  text-shadow: 4px 4px 4px black;
+  margin-bottom: 40px;
+}
+/* editado de la caja del boton de bienvenida */
+#comenzar {
+text-align: center;
+font-size: 2rem;
+font-weight: bold;
+color: white;
+padding: 20px;
+}
+/* COLOR DE LA CAJA DE "TU NOMBRE AQUI" */
+input {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  background: rgb(241, 219, 235);
+  border: 1px solid #393939;
+  border-radius: 10px;
+  color: #393939;
+  font-size: 14px;
+  padding: 8px;
+  text-align: center;
+}
+/* el boton de comenzar */
+#bott {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  border-radius: 10px;
+  background: #7D4CF2;
+  border: 7px solid #7D4CF2;
+  box-shadow: 0px 5px 12px rgb(79, 3, 82);
+}
+/* hover del boton de comenzar */
+#bott:hover{
+  /* padding: 7px; */
+  border: 7px solid #7D4CF2;
+  color: rgb(255, 255, 255);
+}
+/* titulos de las paginas */
+#titulo{
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  -webkit-text-stroke: 2.5px black;
+  text-align: center;
+  font-size: 4rem;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+}
+/* CAMBIO DE COLOR DEL NOMBRE INGRESADO */
+#koko{
+  text-transform: uppercase;
+  color: rgb(248, 210, 140);
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
+  -webkit-text-stroke: 2px black;
+}
+/* alinear las letras de welcome, score, anime y dorama  */
+#win {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  text-align: center;
+  font-size: 3rem;
+  color: white; 
+  text-shadow: 4px 4px 4px black;
+}
+/* TEXTO LAS PREGUNTAS */
+.preguntas {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+/* bordes de todas las imagenes */
+#imag{
+  /* background-color: rgb(255, 255, 255); */
+  background-clip: padding-box;
+  border: 10px solid rgba(255,255,255,0.5);
+  width:320px;
+  height:200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ------BOTONES DE WELCOME---------- */
+/* boton de  Dorama*/
+.myButton0 {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 1.8rem;
+  background-color:rgba(190, 69, 140, 0.658);
+  padding: 30px;
+  background: #F9CC04;
+  border: 0px solid #F9CC04;
+  box-shadow: 0px 5px 12px rgb(79, 3, 82);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border-radius: 30px;
+  width: 200px;
+  margin:10px;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.myButton0:hover {
+  padding: 30px;
+  background: rgba(155, 140, 221, 0.658);
+  color: rgb(255, 255, 255);
+} 
+/* Boton de Anime */
+.myButton {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 1.8rem;
+  background-color:rgba(190, 69, 140, 0.658);
+  padding: 30px;
+  background: #59F86B;
+  border: 0px solid #59F86B;
+  box-shadow: 0px 5px 12px rgb(79, 3, 82);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border-radius: 30px;
+  width: 200px;
+  margin:10px;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.myButton:hover {
+  padding: 30px;
+  background: rgba(155, 140, 221, 0.658);
+  color: rgb(255, 255, 255);
+} 
+
+/* -------BOTONES DE TODAS LAS PREGUNTAS----- */
+.answer {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  background-color:#596EF8;
+  padding: 30px;
+  border: 0px solid #596EF8;
+  box-shadow: 0px 5px 12px rgb(79, 3, 82);
+  background: light-gray;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  width: 200px;
+  height: 100px;
+  font-size: 1.8rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.answer:hover {
+  padding: 30px;
+  background: blue;
+  color: black;
+} 
+
+/*-------BOTONES DED SCORE------*/
+/* Boton de  Dorama de SCORE*/
+.myButton1 {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 1.8rem;
+  background-color:rgba(190, 69, 140, 0.658);
+  padding: 20px;
+  background: #F9CC04;
+  border: 0px solid #F9CC04;
+  box-shadow: 0px 5px 12px rgb(79, 3, 82);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border-radius: 20px;
+  width: 150px;
+  margin:10px;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.myButton1:hover {
+  padding: 20px;
+  background: rgba(155, 140, 221, 0.658);
+  color: rgb(255, 255, 255);
+} 
+/* Boton de  Anime de SCORE*/
+.myButton2 {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 1.8rem;
+  background-color:rgba(190, 69, 140, 0.658);
+  padding: 20px;
+  background:  #59F86B;
+  border: 0px solid #59F86B;
+  box-shadow: 0px 5px 12px rgb(79, 3, 82);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border-radius: 20px;
+  width: 150px;
+  margin:10px;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.myButton2:hover {
+  padding: 20px;
+  background: rgba(155, 140, 221, 0.658);
+  color: rgb(255, 255, 255);
+} 
+.myButton3 {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 1.5rem;
+  background-color:rgba(190, 69, 140, 0.658);
+  padding: 10px;
+  background:  #bf4bec;
+  border: 0px solid #bf4bec;
+  box-shadow: 0px 5px 12px rgb(79, 3, 82);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border-radius: 15px;
+  width: 150px;
+  margin:10px;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.myButton2:hover {
+  padding: 20px;
+  background: rgba(155, 140, 221, 0.658);
+  color: rgb(255, 255, 255);
+} 
+/* COLOR DEL CRONOMETRO */
+#countdown{
+  color: rgb(12, 199, 199);
+}
+
+/* COLUMNAS DE LOS BOTONES DE LAS PREGUNTAS */
+.grid-container {
+  display: grid;
+  grid-gap: 20px 20px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 200px 200px;
+  padding: 10px;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 25px;
+}
+.grid-item {
+  padding: 10px;
+  font-size: 30px;
+}
+/* RESPONSIVE DE LAS PAGINAS */
+@media only screen and (max-width: 600px) {
+ .grid-container {
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 200px ;
+  }
+}

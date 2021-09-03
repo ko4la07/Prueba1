@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Dorama</title>
+</head>
+<body>
+  <div id="titulo">
+    <h2>DORAMA</h2>
+  </div>
+  <section id="win">
+    <h3>Pregunta 3</h3>
+    <div>Tienes <span id="countdown"></span> segundos</div>
+    <p class="preguntas">¿A qué dorama corresponde la siguiente imagen?</p>
+    <div id="imag">
+      <img src="assets/dorama_3.jpg" alt="dorama 3" width="320" height="200">
+    </div>
+  </section>
+  <section>
+    <div class="grid-container">
+      <div class="grid-item">
+        <button class="answer" onclick="checkBtn('A')">HOLA Y ADIOS MAMA</button>
+      </div>
+      <div class="grid-item">
+        <button class="answer" onclick="checkBtn('B')">OLVIDAME</button>
+      </div>
+      <div class="grid-item">
+        <button class="answer" onclick="checkBtn('C')" onkeyup="Habilitar">GOBLIN</button>
+      </div>
+      <div class="grid-item">
+        <button class="answer" onclick="checkBtn('D')">ONE MORE TIME</button>
+      </div>
+    </div>
+  </section>
+  <script src="js/doramaThree.js"></script>
+</body>
+</html>

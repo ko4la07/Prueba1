@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>ANIMES</title>
+</head>
+<body>
+  <div id="titulo">
+    <h2>ANIMES</h2>
+  </div>
+  <section id="win">
+    <h3>Pregunta 2</h3>
+    <div>Tienes <span id="countdown"></span> segundos</div>
+    <p class="preguntas">¿A qué anime corresponde la siguiente imagen?</p>
+    <div id="imag">
+      <img src="assets/anime_2.jpg" alt="anime 2" width="320" height="200">
+    </div>
+  </section>
+  <section>
+    <div class="grid-container">
+      <div class="grid-item">
+        <button class="answer" onclick="checkBtn('A')">YOWAMUSHI PEDAL</button>
+      </div>
+      <div class="grid-item">
+        <button class="answer" onclick="checkBtn('B')">POKEMON</button>
+      </div>
+      <div class="grid-item">
+        <button class="answer" onclick="checkBtn('C');">HAIKYU</button>
+      </div>
+      <div class="grid-item">
+        <button class="answer" onclick="checkBtn('D')">SAILOR MOON</button>
+      </div>
+    </div>
+  </section>
+  <script src="js/animeTwo.js"></script>
+</body>
+</html>
