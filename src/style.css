@@ -251,6 +251,28 @@ input {
   background: rgba(155, 140, 221, 0.658);
   color: rgb(255, 255, 255);
 } 
+
+.btnReturn {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 1.5rem;
+  background-color:rgba(190, 69, 140, 0.658);
+  padding: 10px;
+  background:  #ec4be4;
+  border: 0px solid #ec4be4;
+  box-shadow: 0px 5px 12px rgb(79, 3, 82);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border-radius: 15px;
+  width: 150px;
+  margin:10px;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.btnReturn:hover {
+  background: rgba(155, 140, 221, 0.658);
+  color: rgb(255, 255, 255);
+}
 /* COLOR DEL CRONOMETRO */
 #countdown{
   color: rgb(12, 199, 199);
